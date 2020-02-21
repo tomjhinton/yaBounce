@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Tapeworm";
+  src: url("assets/Tapeworm-Regular.otf") format("opentype");
+}
+
+
+#canvas{
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+}
+
+.info{
+  top:10vh;
+  font-family: "Tapeworm";
+  position: absolute;
+  color: white;
+  align-items: center;
+  font-size: 2em;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+#reset{
+  font-family: "Tapeworm";
+  position: absolute;
+  color:#4AF626;
+  margin: auto;
+  left: 200px;
+  top: 80vh;
+  font-size: 5em;
+  -webkit-animation: resetAnim 5s ease-out;
+  -webkit-animation-iteration-count: infinite;
+   text-shadow: 2px 2px #ff0000;
+  z-index: 3;
+}
+
+@-webkit-keyframes resetAnim {
+    0% {
+
+
+    }
+
+
+    50% {
+
+
+        transform: skewX(10deg);
+
+
+    }
+    100% {
+
+
+
+
+    }
+}
+
+.banner{
+  margin-right: 2em;
+  color:red;
+
+}
