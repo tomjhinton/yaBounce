@@ -97,7 +97,7 @@ let lives = 31
 //KeyBoard Controls
 const keys =[]
 document.body.addEventListener('keydown', function (e) {
-
+  e.preventDefault();
   if(e.keyCode===38){
 
     if(player.width === 20 && !player.grounded){
