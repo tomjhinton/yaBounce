@@ -476,7 +476,10 @@ function gameLoop() {
 
       score++
       setup()
-      lives+=6
+      lives+=2
+      if(balls.length>1){
+        balls.pop()
+      }
 
     }
 
